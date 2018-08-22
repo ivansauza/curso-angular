@@ -12,11 +12,11 @@ export class PersonaComponent implements OnInit {
 	public personas:Array<Persona>;
 
 	constructor() {
-		this.persona = new Persona( 'Ivan', 25 );
+		this.persona = new Persona( 'Ivan', 25, true );
 
 		this.personas = [
-			new Persona( 'Monica', 24 ), 
-			new Persona( 'Conejo', 0 )
+			new Persona( 'Monica', 24, true ), 
+			new Persona( 'Conejo', 0, true )
 		];
 	}
 

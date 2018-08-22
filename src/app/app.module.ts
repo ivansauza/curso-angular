@@ -8,6 +8,7 @@ import { EmpleadoComponent } from './empleado/empleado.component';
 import { VariablesComponent } from './variables/variables.component';
 import { ConstructoresComponent } from './constructores/constructores.component';
 import { PersonaComponent } from './persona/persona.component';
+import { DirectivasComponent } from './directivas/directivas.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PersonaComponent } from './persona/persona.component';
     EmpleadoComponent,
     VariablesComponent,
     ConstructoresComponent,
-    PersonaComponent
+    PersonaComponent,
+    DirectivasComponent
   ],
   imports: [
     BrowserModule,

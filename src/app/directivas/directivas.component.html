@@ -1,0 +1,18 @@
+<!-- Directiva de evento click -->
+<button (click)="setVisibilidad(false)">Falso</button>
+<button (click)="setVisibilidad(true)">True</button>
+
+<!-- Directiva ngIf -->
+<span *ngIf="visibilidad">
+	<p>{{ persona.nombre }}</p>
+	<p>{{ persona.edad }}</p>
+</span>
+
+<!-- Directiva ngFor -->
+<h3>Listado de personas</h3>
+
+<ul *ngFor="let persona of personas; let i = index">
+	<li><strong>{{ i }}</strong> {{ persona.nombre }}</li>
+</ul>
+
+<!-- Directiva ngSwitch -->
